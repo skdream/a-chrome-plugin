@@ -1,0 +1,19 @@
+{
+  "name": "a-chrome-plugin",
+  "version": "1.0.0",
+  "description": "闪电加速",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skdream/a-chrome-plugin.git"
+  },
+  "author": "skdream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skdream/a-chrome-plugin/issues"
+  },
+  "homepage": "https://github.com/skdream/a-chrome-plugin#readme"
+}

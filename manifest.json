@@ -1,0 +1,42 @@
+{
+
+  "manifest_version":2,
+  "name":"网络提速",
+  "version":"0.1.0",
+  "description":"自动申请网络提速权限",
+  "icons":{
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+
+  "browser_action":{
+    "default_icon":"images/icon48.png",
+    "default_popup":"popup.html"
+  },
+  "content_scripts":[
+    {
+    "matches": ["http://it.tcent.cn/*"],
+    "js": ["jquery.min.js", "myscript.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "author":"jiyongjia",
+
+  "permissions":[
+    "tabs",
+    "activeTab",
+    "http://it.tcent.cn/*",
+    "http://it.tcent.cn/net/speedupapply/"
+  ],
+  "web_accessible_resources": [
+    "popup.js",
+    "images/*.png",
+    "style/double-rainbow.css",
+    "script/double-rainbow.js",
+    "script/main.js",
+    "templates/*"
+  ]
+}

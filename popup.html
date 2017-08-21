@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>设置加速</title>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="http://it.tcent.cn/static/assets/global/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://it.tcent.cn/static/assets/global/css/components.min.css">
+    <!-- <script type="text/javascript" src='jquery.min.js'>
+
+    </script> -->
+  </head>
+  <body>
+
+
+    <form class="form-horizontal" role="form">
+        <div class="portlet-body ">
+            <div class="form-group">
+                <label class="control-label col-md-3">本机IP地址：</label>
+                <div class="col-md-4">
+                    <input id="IP" type="text" class="form-control " placeholder="请输入IP地址" value="10.1.158.60">
+
+                    <span class="help-inline">IP地址为：X.X.X.X（今日申请次数剩余<span style="color: red" id="times">0</span>次）</span>
+
+                </div>
+            </div>
+            <div class="form-actions">
+                <div class="row">
+                    <button type="button" class="btn green demo-loading-btn" data-loading-text="提交中" style="height: 40px;width: 100%" id="startApply" >立即提速</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="popup.js">
+
+    </script>
+  </body>
+</html>
